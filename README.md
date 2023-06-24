@@ -20,5 +20,5 @@ The second part of the challenge is called PyPoll and my code can be found in th
   + The total number of votes each candidate won
   + The winner of the election based on popular vote
 
-And I printed that information in my code as well as wrote to a txt fil, which is in the PyPoll folder.
+And I printed that information in my code as well as wrote to a txt fil, which is also in the 'analysis' folder.
 
