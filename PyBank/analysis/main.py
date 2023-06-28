@@ -4,7 +4,7 @@ import csv
 import sys
 
 # create a path to the csv
-csvpath = os.path.join('Resources', 'budget_data.csv')
+csvpath = os.path.join('PyBank','Resources','budget_data.csv')
 
 # set up the lists we want to create
 date = []
@@ -69,7 +69,7 @@ print(f'Average Change: {format(net_monthly_avg,".2f")}')
 print(f'Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})')
 print(f'Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})')
 #write to txt file
-with open('pybank_read_me_export.txt','w') as f:
+with open('pybank_reader.txt','w') as f:
     f.write("Financial Analysis\n")   
     f.write("----------------------------\n")        
 

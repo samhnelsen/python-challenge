@@ -4,7 +4,7 @@ import csv
 import sys
 
 # create a path to the csv
-csvpath = os.path.join('..','Resources','election_data.csv')
+csvpath = os.path.join('PyPoll','Resources','election_data.csv')
 
 #variables and lists
 total_votes = 0
@@ -57,7 +57,7 @@ print("-------------------------")
 print(f'{winner}') 
 print("-------------------------") 
 #print to text file
-with open('pypoll_read_me_export.txt','w') as f:
+with open('pypoll_read_me.txt','w') as f:
     f.write("Election Results\n")
     f.write("-------------------------\n")
     f.write(f'Total Votes: {total_votes}\n')
