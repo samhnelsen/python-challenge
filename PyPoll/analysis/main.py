@@ -12,6 +12,7 @@ unique_candidates = []
 candidate_votes = []
 vote_percent = []
 candidate_list = []
+hello = ""
 
 # open and read the csv
 with open(csvpath) as csvfile:
